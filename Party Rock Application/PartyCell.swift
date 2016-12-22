@@ -31,7 +31,7 @@ class PartyCell: UITableViewCell {
             do {
                 let data = try Data(contentsOf: imageURL!)
                 
-                DispatchQueue.global().sync {
+                DispatchQueue.main.sync {
                     self.VideoImg.image = UIImage(data: data)
                 }
             } catch {
