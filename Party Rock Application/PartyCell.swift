@@ -45,6 +45,7 @@ class PartyCell: UITableViewCell {
             
         
         }
+    
         
         
         
